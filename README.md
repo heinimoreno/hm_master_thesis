@@ -14,19 +14,15 @@ hm_master_thesis/
 │
 ├── Dashboards/                   # Interactive dashboards for visualization
 │   ├── Streamlit/                # Streamlit-based interactive dashboard
-│   │   └── app.py                # Streamlit application for visualizing player statistics
+│   │   └── streamlit_app.py                # Streamlit application for visualizing player statistics
 │   │
 │   ├── Power BI/                 # Power BI Dashboard for detailed visualizations
 │       └── dashboard.pbix        # Power BI file for analysis
 │
 ├── Data/                         # Contains all datasets
 │   ├── raw/                      # Raw data collected for analysis
-│   │   ├── players_raw.csv       # Original player data
-│   │   └── market_values_raw.csv # Original market values data
 │   │
 │   ├── cleaned/                  # Cleaned and preprocessed datasets
-│       ├── players_cleaned.csv   # Final cleaned player dataset
-│       └── market_values_cleaned.csv
 │
 ├── EDA/                          # Exploratory Data Analysis
 │   └── EDA.ipynb                 # Jupyter Notebook for EDA with visualizations and insights
